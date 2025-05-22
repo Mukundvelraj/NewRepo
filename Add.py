@@ -1,7 +1,7 @@
 def add(a,b):
     c =(a-b)
-    print(c)
-    print("This is from Pipeline -1")
+    logging.info(f"Result: {c}")
+    logging.info("This is from Pipeline -1")
     return c
 
 def test_add():
